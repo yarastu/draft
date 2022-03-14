@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
