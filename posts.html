@@ -5,12 +5,12 @@
     <link rel="stylesheet" href="assets/styles/main.css">
     <meta charset="utf-8">
 	</head>
-	<body> 
-		
+	<body>
+
 		<a href="#" translate="no" lang="en">Go to English version</a>
-		
+
 		<header>
-      <nav> 		
+      <nav>
         <a href="/">
       		<img src="https://via.placeholder.com/50x50/008000" alt="Ярасту Лого" loading="lazy">
       		<span>
@@ -36,51 +36,75 @@
         </ul>
       </nav>
 		</header>
-		
+
 		<main>
-  	  <h1>Все темы сайта</h1>	
-      <section>
-        <h2>Фильтр по темам</h2>
-        <ul>
-          <li><button type="button">Новости</button></li>
-          <li><button type="button">Основы</button></li>
-          <li><button type="button">Фарма</button></li>
-          <li><button type="button">Стиль</button></li>
-          <li><button type="button">Питание</button></li>
-          <li><button type="button">Гайды</button></li>
-          <li><button type="button">Хирургия</button></li>
-          <li><button type="button">Тренажеры</button></li>
-          <li><button type="button">Психология</button></li>
-          <li><button type="button">Тренировки</button></li>
-          <li><button type="button">Отдых</button></li>
-          <li><button type="button">Знаменитости</button></li>
-        </ul>
-      </section>
-      
-      <section>
-        <h2>Фильтр по разделам</h2>
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Блог</button></li>
-          <li><button type="button">Подкаст</button></li>
-          <li><button type="button">Канал</button></li>
-        </ul>
-      </section>
-      
-      <section>
-        <h2>Сортировка</h2>
-          <li><button type="button">Новое</button></li>
-          <li><button type="button" disabled>Лучшее</button></li>
-      </section>
-      
-      
-      <ul>
-        <li><a href="/">Главная</a></li>
-        <li><a>Все темы сайта</a></li>
-      </ul>
-      
+  	  <article>
+    	  <header>
+      	  <h1>Все темы сайта</h1>
+        </header>
+        <section>
+          <h2>Фильтры</h2>
+          <ul>
+            <li><button type="button">Новости</button></li>
+            <li><button type="button">Основы</button></li>
+            <li><button type="button">Фарма</button></li>
+            <li><button type="button">Стиль</button></li>
+            <li><button type="button">Питание</button></li>
+            <li><button type="button">Гайды</button></li>
+            <li><button type="button">Хирургия</button></li>
+            <li><button type="button">Тренажеры</button></li>
+            <li><button type="button">Психология</button></li>
+            <li><button type="button">Тренировки</button></li>
+            <li><button type="button">Отдых</button></li>
+            <li><button type="button">Знаменитости</button></li>
+          </ul>
+          <ul>
+            <li><button type="button">Все</button></li>
+            <li><button type="button">Блог</button></li>
+            <li><button type="button">Подкаст</button></li>
+            <li><button type="button">Канал</button></li>
+          </ul>
+          <ul>
+            <li><button type="button">Новое</button></li>
+            <li><button type="button" disabled>Лучшее</button></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Публикации</h2>
+          <div id="users">
+            <input type="search" class="search" placeholder="Search" />
+            <table>
+              <!-- IMPORTANT, class="list" have to be at tbody -->
+              <tbody class="list">
+                <tr>
+                  <td class="name"><h3>Jonny Stromberg</h3></td>
+                  <td class="born">1986</td>
+                </tr>
+                <tr>
+                  <td class="name"><h3>Jonas Arnklint</h3></td>
+                  <td class="born">1985</td>
+                </tr>
+                <tr>
+                  <td class="name"><h3>Martina Elm</h3></td>
+                  <td class="born">1986</td>
+                </tr>
+                <tr>
+                  <td class="name"><h3>Gustaf Lindqvist</h3></td>
+                  <td class="born">1983</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a>Все темы сайта</a></li>
+          </ul>
+        </footer>
+      </article>
 		</main>
-		
+
 		<footer>
       <section>
         <h2>Мы в сети</h2>
@@ -90,13 +114,14 @@
           <li><a href="#">Телеграм</a></li>
         </ul>
       </section>
-      <p>
+      <div>
         <img src="https://via.placeholder.com/50x50/FF0000" alt="Ярасту Лого" width="50" height="50" loading="lazy">
-        <span>
+        <p>
           Ярасту <br>
-          2022 vadim@yarastu.ru
-        </span>
-      </p>
+          2022 <a href="mailto:vadim@yarastu.ru">vadim@yarastu.ru</a>
+        </p>
+      </div>
     </footer>
+
 	</body>
 </html>
